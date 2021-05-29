@@ -94,5 +94,5 @@ function mouseDragged(){
   Matter.Body.setPosition(polygon.body, {x: mouseX, y: mouseY});
 }
 function mouseReleased(){
-  polygon.fly();
+  launchobject.fly();
 }
