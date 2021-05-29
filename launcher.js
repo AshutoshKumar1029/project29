@@ -3,7 +3,7 @@ class Launcher{
         var options = {
             bodyA: bodyA,
             pointB: pointB,
-            stiffness: 0.05,
+            stiffness: 0.1,
             length: 1
         }
         this.pointB = pointB
